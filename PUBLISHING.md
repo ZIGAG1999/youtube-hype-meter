@@ -43,9 +43,15 @@ Privacy: the only thing it does is ask YouTube for the Hype points of the video 
 Open source: https://github.com/ZIGAG1999/youtube-hype-meter
 ```
 
+**This add-on is experimental:** leave unchecked (it's finished).
+
+**This add-on requires payment, non-free services or software, or additional hardware:** leave unchecked.
+
 **Categories:** Photos, Music & Videos
 
 **Tags:** youtube, hype, video, statistics
+
+**Support email:** leave blank (it would be shown publicly; the support website covers it).
 
 **Support website**
 ```
@@ -54,7 +60,7 @@ https://github.com/ZIGAG1999/youtube-hype-meter/issues
 
 **License:** MIT License
 
-**Privacy policy**
+**This add-on has a Privacy Policy:** check it, then paste this into the box that appears:
 ```
 Hype Meter for YouTube does not collect, store, or share any personal data with the developer or any third party.
 
