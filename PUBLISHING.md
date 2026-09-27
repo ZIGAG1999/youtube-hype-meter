@@ -49,7 +49,7 @@ Open source: https://github.com/ZIGAG1999/youtube-hype-meter
 
 **Categories:** Photos, Music & Videos
 
-**Tags:** youtube, hype, video, statistics
+**Tags:** not on the submission form. Optional, and only addable later from the add-on's **Edit Product Page** (pick any that fit, e.g. youtube, video).
 
 **Support email:** leave blank (it would be shown publicly; the support website covers it).
 
