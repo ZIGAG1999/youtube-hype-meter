@@ -9,8 +9,8 @@ The file to upload is `web-ext-artifacts/hype_meter_for_youtube-1.0.0.zip`.
 2. First time only: accept the **Firefox Add-on Distribution Agreement** and set a display name.
 3. Click **Submit a New Add-on**.
 4. **How to distribute:** choose **On this site** (gives it a public page on AMO).
-5. **Upload:** choose `web-ext-artifacts/hype_meter_for_youtube-1.0.0.zip`.
-   - **Compatible platforms:** tick **Firefox** only. Untick **Firefox for Android** (it only works on desktop YouTube).
+5. **Upload Version:** click **Select a file…** and choose the package you built locally: `web-ext-artifacts/hype_meter_for_youtube-1.0.0.zip` (build it first with `npx web-ext build --ignore-files PUBLISHING.md .gitignore`; it isn't stored in this repo). Then click **Continue** and wait for Mozilla's automatic checks.
+   - **Compatible platforms** (may appear after the upload): tick **Firefox** only. Untick **Firefox for Android** (it only works on desktop YouTube).
 6. **Source code:** answer **No**. Nothing is minified or generated; the uploaded files are the source.
 7. Fill in the listing with the text below, then **Submit Version**.
 8. Mozilla reviews it (usually from a few hours to a few days). You'll get an email when it's approved or if they have questions.
