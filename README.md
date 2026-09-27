@@ -2,6 +2,9 @@
 
 A Firefox extension that shows how many **Hype points** a YouTube video has, in a small pill next to the like and dislike button, styled like YouTube's own buttons.
 
+![Hype Meter in dark mode: the Hype pill next to YouTube's like button](screenshots/dark.png)
+![Hype Meter in light mode](screenshots/light.png)
+
 YouTube's Hype feature is mobile-only. On desktop you can see a video's leaderboard rank ("#14 hyped") but not its points. This fills that in:
 
 - **Hype points**, e.g. ⭐ **1.3M**
