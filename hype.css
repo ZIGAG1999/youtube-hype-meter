@@ -1,0 +1,34 @@
+/* Hype Meter pill: sits left of the like/dislike button and matches YouTube's
+   own action buttons (height, shape, color, font), using YouTube's theme
+   variables so it follows light and dark mode. Not clickable. */
+#hype-meter-pill.hype-meter {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: none;
+  /* Top-aligned so the script can line it up exactly with the like button
+     (it adjusts margin-top and height to match; 36 px is just the start). */
+  align-self: flex-start;
+  height: 36px;
+  margin-inline-end: 8px;
+  padding: 0 16px 0 10px;
+  border-radius: 18px;
+  background: var(--yt-spec-badge-chip-background, rgba(255, 255, 255, 0.1));
+  /* Follows the page's own text color (the script then copies the like
+     button's exact colors). A fixed white fallback was invisible in light mode. */
+  color: var(--yt-spec-text-primary, inherit);
+  font-family: "Roboto", "Arial", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 36px;
+  white-space: nowrap;
+  cursor: default;
+  user-select: none;
+}
+
+#hype-meter-pill .hype-meter__star {
+  width: 24px;
+  height: 24px;
+  flex: none;
+}
