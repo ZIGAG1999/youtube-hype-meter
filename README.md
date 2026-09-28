@@ -35,19 +35,13 @@ YouTube's official API has no Hype data, and the desktop site only gets a video'
 
 ## Install
 
-**To try it (until Firefox restarts):**
+**Firefox Add-ons:** coming soon. It's currently in Mozilla's review, and the install link will be added here once it's approved. Installing from Firefox Add-ons keeps it installed and updates it automatically.
 
-1. Go to `about:debugging#/runtime/this-firefox`.
-2. Click **Load Temporary Add-on…** and choose this folder's `manifest.json`.
+**Try it now (stays until Firefox restarts):**
 
-**To keep it permanently:** release Firefox only installs extensions signed by Mozilla. Sign it for free as an "unlisted" (self-distributed) extension:
-
-1. Create API credentials at https://addons.mozilla.org/developers/addon/api/key/ (needs a Mozilla account).
-2. In this folder, run:
-   ```sh
-   npx web-ext sign --channel=unlisted --api-key=YOUR_KEY --api-secret=YOUR_SECRET
-   ```
-3. Open the signed `.xpi` from `web-ext-artifacts/` in Firefox to install it.
+1. Download this repo (**Code → Download ZIP**) and unzip it.
+2. In Firefox, go to `about:debugging#/runtime/this-firefox`.
+3. Click **Load Temporary Add-on…** and choose the `manifest.json` file from the unzipped folder.
 
 ## License
 
